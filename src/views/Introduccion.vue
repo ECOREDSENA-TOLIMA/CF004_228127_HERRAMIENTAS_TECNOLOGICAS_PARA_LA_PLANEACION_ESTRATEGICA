@@ -9,6 +9,12 @@
           i.fas.fa-info
       h1 Introducción
     
+    .mb-5(data-aos="zoom-down") Cuando se aplica el enfoque de Arquitectura Empresarial (AE) para mejorar las capacidades de las organizaciones se deben planear los ejercicios de arquitectura, definir el alcance a partir de las capacidades actuales y las necesidades de las partes interesadas. A continuación, podrá visualizar la información general de las características de este componente formativo:
+    
+    figure(data-aos="zoom-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>

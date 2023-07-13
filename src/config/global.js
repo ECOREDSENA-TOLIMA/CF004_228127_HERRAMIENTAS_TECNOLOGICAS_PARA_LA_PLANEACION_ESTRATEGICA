@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Ejercicio de Arquitectura Empresarial',
+    descripcionCurso:
+      'En el desarrollo del ejercicio de arquitectura empresarial el equipo debe apoyarse de las mejores prácticas de la industria, de los estándares, de otros marcos de arquitectura, modelo de madurez y las herramientas tecnológicas. A través de los ejercicios de arquitectura, de manera coordinada con los demás marcos de gestión, las organizaciones mejoran las capacidades y logran la transformación esperada.    ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,13 +32,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Herramientas tecnológicas para gestionar y documentar ejercicios de Arquitectura Empresarial',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Mejores prácticas',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Herramientas tecnológicas en el ejercicio de Arquitectura Empresarial',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,14 +53,21 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación del ejercicio de Arquitectura Empresarial',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Arquitectura actual y arquitectura objetivo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo:
+              'Análisis de brecha, mapa de ruta y evaluación del ejercicio',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -85,6 +100,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_01.pdf',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -97,21 +117,24 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        'Herramientas tecnológicas para gestionar y documentar ejercicios de Arquitectura Empresarial',
+      referencia:
+        'CertCampus. (2019). ADM El método de desarrollo de la Arquitectura. [Vídeo], YouTube ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=5sXE4izHgWc',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Evaluación del ejercicio de Arquitectura Empresarial',
+      referencia:
+        'Ministerio TIC Colombia. (2021) Arquitectura para todos. [Vídeo], YouTube ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=JJLQCK8LmVA',
     },
   ],
   glosario: [
     {
-      termino: '',
+      termino: '<em>API - application programming interface</em>',
       significado: '',
     },
     {
