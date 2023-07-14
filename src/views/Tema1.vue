@@ -274,17 +274,17 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Herramientas tecnológicas en el ejercicio de Arquitectura Empresarial
 
-    p.text-center.mb-5 En la categoría herramientas se encuentran modelos de madurez y herramientas de software de automatización de la AE (MINTIC, 2019):
+    p.text-center.mb-5 En la categoría herramientas se encuentran modelos de madurez y herramientas de #[i software] de automatización de la AE (MINTIC, 2019):
 
 
     .row.justify-content-center.slyder-cf(data-aos="fade-down-left") 
       .col-12.col-md-7.col-lg-6(style="height:100%")
         SlyderF.mb-5(columnas="col-12")
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5Togaf Modeling
+            h5 Togaf Modeling
             p "Togaf Modeling" es un sitio colaborativo diseñado para proporcionar una guía y soluciones prácticas de modelado, mediante la selección de diferentes estándares que brindan una solución lista para usar. 
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5Enterprise Architecture Maturity Model
+            h5 Enterprise Architecture Maturity Model
             p Modelo de madurez de Arquitectura Empresarial (Enterprise Architecture Maturity Model - EAMM) de la asociación nacional de Chief Information Officer CIO de los Estados Unidos (NASCIO).
           .tarjeta.tarjeta--slyder.p-4.m-3
             h5 ITScore
@@ -320,21 +320,171 @@
 
     p.mb-4(data-aos="fade-down") Como se menciona previamente, en esta categoría se encuentra:
 
-    .row.justify-content-center.slyder-cf(data-aos="fade-down-left") 
+    .row.justify-content-center.slyder-cf.mb-4(data-aos="fade-down-left") 
       .col-12
         ul.lista-ul.mb-2
           li.mb-0
             i.fas.fa-circle.fa-cfx(style="color:#60CB28")
-            | Software para modelamiento de procesos de negocio.
+            | #[i Software] para modelamiento de procesos de negocio.
           li.mb-0
             i.fas.fa-circle.fa-cfx(style="color:#60CB28")
-            | Software para construir modelos y diagramas.
+            | #[i Software] para construir modelos y diagramas.
           li.mb-0
             i.fas.fa-circle.fa-cfx(style="color:#60CB28")
             | Soluciones de AE.
 
     p.mb-5(data-aos="fade-down") Por otra parte, Excel, Visio y SharePoint, son herramientas básicas que por mucho tiempo han sido útiles para aproximarse a las visiones arquitectónicas, pero la gestión actual de AE requiere la democratización y flexibilidad, es decir que no solamente el personal de TI, también personas de negocio en toda la organización colaboren en el mapeo de datos, visualización de procesos, a través de portales accesibles para todos o alojadas en la nube. 
 
+    .row.mb-5.justify-content-center
+      .col-md-11.col-lg-10.cajon.color-acento-botones.p-3(data-aos="fade-right")
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-21.svg', alt='')
+          .col-md-9
+            p La aplicación de sistemas de gestión de inventario está orientada a todos los sectores productivos, ya que, por más pequeña que sea una empresa u organización, esta necesita tener el control y administración de cada uno de los materiales, documentos y servicios, entre otros, que involucran el ejercicio de esta. 
+            ul.lista-ul.mb-0
+              li.mb-0
+                i.fas.fa-circle.fa-cfx(style="color:#304C8E")
+                | Capturar.
+              li.mb-0
+                i.fas.fa-circle.fa-cfx(style="color:#304C8E")
+                | Almacenar.
+              li.mb-0
+                i.fas.fa-circle.fa-cfx(style="color:#304C8E")
+                | Estructurar.
+              li.mb-0
+                i.fas.fa-circle.fa-cfx(style="color:#304C8E")
+                | Analizar.
+
+    p.mb-3(data-aos="fade-down") Por lo tanto, resulta esencial seleccionar la mejor herramienta que cumpla con las necesidades particulares y facilite el proceso de AE para la organización. 
+    p.mb-5(data-aos="fade-down") Algunas de las características de las herramientas de AE modernas son (leanix.net, 2022): 
+    
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-md-11.col-12.position-relative
+        .crd.crd--avatarHorizontal.crd--first.py-2(data-aos="fade-down")
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema1/tema1-22.svg", alt="alt")
+            .col
+              p Intuitivas, fáciles de usar y producen resultados desde el comienzo de su adopción, porque requieren poca capacitación y personalización en su configuración.
+        .crd.crd--avatarHorizontal.crd--first.py-2(data-aos="fade-down")
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema1/tema1-24.svg", alt="alt")
+            .col
+              p Puede ser utilizada por personas del negocio, no se requiere ser de tecnología. Son herramientas que cuentan con una interfaz intuitiva y modelos de datos que todo tipo de usuario puede entender. Fomentan la colaboración de los propietarios de aplicaciones y expertos, lenguaje unificado para abordar y optimizar el impacto de TI en los resultados de negocio, personalizable para que las partes interesadas evalúen rápidamente la información relevante.
+        .crd.crd--avatarHorizontal.crd--first.py-2(data-aos="fade-down")
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema1/tema1-25.svg", alt="alt")
+            .col
+              p Pueden descubrir datos automáticamente, usan API de integración, informes y diagramas automatizados, aprovechando tecnologías propias de los servicios en la nube.
+        .crd.crd--avatarHorizontal.crd--first.py-2(data-aos="fade-down")
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/tema1/tema1-23.svg", alt="alt")
+            .col
+              p Visibilidad de la arquitectura de TI actual y capacidad para planificar el estado futuro deseado.
+
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Modelo de madurez para AE
+
+    p.mb-3(data-aos="zoom-down-right") Tener una buena AE no sucede espontáneamente, se requieren meses para ponerla en marcha, quizás iniciando por adoptar buenas prácticas e implementar la arquitectura con un proyecto de alto impacto para la organización, para posteriormente desarrollar la AE en otros proyectos y refinar el proceso. Un punto de partida es la comprensión del nivel de madurez de la capacidad, establecer objetivos alcanzables y eliminar progresivamente cualquier barrera para el éxito.
+    p.mb-5(data-aos="zoom-down-right") La evaluación de la madurez es uno de los aspectos que se enmarcan en la “Fase preliminar” del Método de Desarrollo de la Arquitectura (ADM) de TOGAF. Dentro de los objetivos de la fase está establecer el objetivo de madurez de la capacidad y, por tanto, el equipo de arquitectura debe adoptar un buen modelo de madurez alineado con las necesidades de la organización, que proporcione medidas de éxito, y permita la mejora continua de la organización.
+    
+    .row.justify-content-center.mb-5(data-aos="zoom-down-right")
+      .col-lg-11.col-md-11.col-12.position-relative
+        .bloque-texto-g.color-primario.px-3.py-2.p-sm-4.p-md-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-26.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 La capacidad de una organización para ejecutar factores específicos proporciona una medida de madurez y se puede utilizar para recomendar una serie de pasos secuenciales para mejorar en el tiempo. Es una evaluación que les da a los ejecutivos una idea de cómo mejorar capacidades de la organización.
+              br
+              br
+              | La planificación basada en la capacidad es un paradigma de planificación empresarial muy útil, que enmarca todas las fases del desarrollo de la arquitectura en el contexto de los resultados comerciales, vinculando claramente la visión de TI, las arquitecturas y los planes de implementación y migración con la estrategia corporativa, el negocio y la línea de negocio (The Open Group, 2018).
+
+    p.mb-5(data-aos="zoom-down-right") En el mismo TOGAF, capítulo 2, (The Open Group, 2018) se menciona que una práctica de AE debe establecer capacidades en las siguientes áreas:
+    
+    .row.justify-content-center.mb-5(data-aos="fade-down-right")
+      .col-12.mb-2.mb-md-0
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/tema1-27-md.svg', alt='')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/tema1-27-sm.svg', alt='') 
+
+    p.mb-5(data-aos="zoom-down-right") En la siguiente sección se detallan algunas características del Enterprise Architecture Maturity Model - EAMM, desarrollado por NASCIO, aunque en la industria se encuentran otros modelos como:
+
+    .row.mb-5.justify-content-center
+      .col-md-11.col-lg-10(data-aos="fade-right")
+        .row.justify-content-center.align-items-center
+          .col-md-4.col-12
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-28.svg', alt='')
+          .col-md-8.col-12
+            p.mb-0 #[strong 1.] EAMMF (Enterprise Architecture of Maturity Model Framework).
+            p.mb-0 #[strong 2.] ACMM (Architecture Capability Maturity Model).
+            p.mb-0 #[strong 3.] EAAF (Enterprise Architecture Assessment Framework).
+            p.mb-0 #[strong 4.] E2AMM (Extended Enterprise Architecture Maturity Model).
+            p.mb-0 #[strong 5.] SAMM (Strategic Alignment Maturity Model).
+            p.mb-0 #[strong 6.] MAEAF (Maturity Assessment Enterprise Architecture Framework).
+
+    .row.mb-5.justify-content-center
+      .col-md-11.col-lg-10.cajon.color-primario.p-3(data-aos="fade-down-right")
+        p Estos modelos de madurez que fueron analizados por Patricia Suarez en su artículo (Suarez, Villar, Infante, & Jiménez, 2018), mencionan que comparten criterios de evaluación de la AE y coinciden en cinco niveles de evaluación de la madurez, esto es desde un criterio inexistente o no programado hasta un nivel de desempeño optimizado.
+
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Modelo de madurez de NASCIO para AE
+
+    p.mb-3(data-aos="zoom-down-right") El Modelo de madurez de AE (Enterprise Architecture Maturity Model - EAMM) fue desarrollado por la Asociación Nacional de Chief Information Officer (CIO) de los Estados en Estados Unidos (NASCIO) para revisar objetivamente el estado de sus programas de AE. 
+    p.mb-5(data-aos="zoom-down-right") El modelo EAMM se basa en el mismo concepto que el Capability Maturity Model (CMM) desarrollado por el Instituto de Ingeniería de #[i Software] (SEI) que describe la evolución de los procesos de desarrollo de #[i software] de las organizaciones a través de seis niveles: no programado (o inexistente), inicial o programado, repetible, definido, gestionado y optimizado (o mejora continua).
+
+    .row.mb-5.justify-content-center
+      .col-md-11.col-lg-10.cajon.color-acento-botones.p-3(data-aos="fade-right")
+        .row.justify-content-center.align-items-center
+          .col-md-8
+            p El modelo EAMM permite comparar la efectividad en la adopción de una AE y mostrar la progresión de los beneficios que un programa de arquitectura administrado aporta a una organización a medida que madura.
+            p EAMM es uno de los modelos de madurez más utilizados en la actualidad (NASCIO, 2013), permite evaluar la madurez del programa de AE en 6 niveles que van desde no documentado (nivel 0) a una AE madura (nivel 5).
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-29.png', alt='')
+
+    p.mb-5(data-aos="fade-down-right") Cada nivel contiene los elementos que son relevantes para ese nivel de madurez en particular. Un cierto nivel de madurez solo se puede alcanzar si se han cumplido todos los niveles anteriores, como se muestra a continuación:
+
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-md-11.col-lg-10.col-12
+        ImagenInfografica.color-secundario.mb-4
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-30.svg', alt='')
+          .tarjeta.color-secundario.p-3(x="77%" y="26%" numero="+")
+            p En la organización los procesos han madurado, y basados en la comprensión del impacto de los cambios se llevan a cabo las mejoras del programa de AE.
+          .tarjeta.color-secundario.p-3(x="73%" y="37%" numero="+")
+            p Cuando la organización evalúa el rendimiento de la AE, se hace recolección de información y análisis para la comprensión de la capacidad y los procesos.
+          .tarjeta.color-secundario.p-3(x="69%" y="48.5%" numero="+")
+            p Cuando toda la organización conoce los procesos documentados, se utilizan plantillas aprobadas, y las actividades de AE se llevan a cabo de acuerdo con el plan definido.
+          .tarjeta.color-secundario.p-3(x="65%" y="60%" numero="+")
+            p En este caso los procesos son repetibles, se usan documentos reutilizables, y se realiza verificación y seguimiento. La organización identifica las tareas de la AE.
+          .tarjeta.color-secundario.p-3(x="60.6%" y="72%" numero="+")
+            p Hay definición de arquitectura base, aunque el conocimiento no está en su totalidad en la documentación, se depende de los individuos.
+          .tarjeta.color-secundario.p-3(x="56.4%" y="83%" numero="+")
+            p En la organización no existe documentación de la AE, y no se aplican estándares ni buenas prácticas en el desarrollo de soluciones.
+ 
+    .row.justify-content-center.mb-4.d-block.d-md-none(data-aos="fade-down-right")
+      .col-12.mb-2.mb-md-0
+        a.anexo.mb-4(:href="obtenerLink('/downloads/niveles_de_madurez_eamm.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Niveles madurez EAMM.
+
+    p.mb-5(data-aos="fade-down-right") Cada nivel de madurez contiene criterios denominados declaraciones para cada una de las 8 categorías, las cuales en conjunto dan una imagen del programa de AE para una organización en ese nivel. Estas declaraciones se han organizado en las siguientes categorías de AE (NASCIO, 2013):
+    .tarjeta.color-acento-botones.p-4.mb-5(data-aos="fade-down-left")
+      SlyderB.mb-0(:datos="datosSlyder")
 
 </template>
 
@@ -344,6 +494,50 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Administración',
+        texto: 'Roles y responsabilidades de gobierno.',
+        imagen: require('@/assets/curso/temas/tema1/tema1-31.png'),
+      },
+      {
+        titulo: 'Planificación',
+        texto: 'Hoja de ruta del programa de AE y plan de implementación.',
+        imagen: require('@/assets/curso/temas/tema1/tema1-32.png'),
+      },
+      {
+        titulo: 'Marco (<em>framework</em>)',
+        texto: 'Procesos y plantillas utilizados para el plan de AE.',
+        imagen: require('@/assets/curso/temas/tema1/tema1-33.png'),
+      },
+      {
+        titulo: 'Proyecto básico (<em>Blueprint</em>)',
+        texto: 'Recopilación de los estándares y especificaciones reales.',
+        imagen: require('@/assets/curso/temas/tema1/tema1-34.png'),
+      },
+      {
+        titulo: 'Comunicación',
+        texto:
+          'Educación y distribución de detalles de AE y <em>Blueprint.</em>',
+        imagen: require('@/assets/curso/temas/tema1/tema1-35.png'),
+      },
+      {
+        titulo: 'Cumplimiento',
+        texto:
+          'Cumplimiento de los estándares, procesos y otros elementos de AE publicados, y los procesos para documentar y rastrear las variaciones de esos estándares.',
+        imagen: require('@/assets/curso/temas/tema1/tema1-36.png'),
+      },
+      {
+        titulo: 'Integración',
+        texto: 'Puntos de contacto de los procesos de gestión con el AE.',
+        imagen: require('@/assets/curso/temas/tema1/tema1-37.png'),
+      },
+      {
+        titulo: 'Participación',
+        texto: 'Apoyo del Programa AE en toda la organización.',
+        imagen: require('@/assets/curso/temas/tema1/tema1-38.png'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

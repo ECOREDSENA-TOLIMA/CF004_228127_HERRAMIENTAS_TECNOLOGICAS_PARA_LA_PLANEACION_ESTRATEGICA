@@ -58,7 +58,11 @@
     color: $color-secundario
   .slyder-f__main .horizontal-scroll
     align-items: center !important
-
+.slyder-b
+  .slyder__btn
+    background-color: $color-secundario
+    i
+      color: $white
     
 .titulo-herramientas 
   padding: 1rem
@@ -69,3 +73,64 @@
 .fas.fa-circle.fa-cfx
   font-size: 0.5em
   top: 7px
+
+.crd--avatarHorizontal 
+  position: relative
+
+.crd--avatarHorizontal:before 
+  position: absolute
+  content: ""
+  top: 0
+  right: 0
+  width: calc(100% - 60px)
+  height: 100%
+  border-top: 1.5px solid #304C8E
+
+.crd--avatarHorizontal
+  div
+    z-index: 10
+
+.cajon.color-primario
+  background-color: lighten($color-primario, 45%)
+
+.tarjeta.color-acento-botones
+  background-color: lighten($color-acento-botones, 32%)
+  
+.tarjeta.color-primario
+  background-color: lighten($color-primario, 45%)
+  *
+    color: $black
+
+
+
+
+.tema2
+  .tarjeta--tabla
+    background-color: lighten($color-primario, 45%)
+  .tarjeta--tabla:nth-child(even)
+    background-color: lighten($color-acento-botones, 32%)
+
+    
+  ///////// Card hover --------------------------------------
+  .crd_hover_txt
+    position: relative  
+    padding: 0 !important
+    overflow: hidden !important  
+    &:hover    
+      .crd_hover_txt--body   
+        transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+        transform: translateY(0)
+
+    .crd_hover_txt--body
+      width: 100%
+      position: absolute
+      padding: 1.5rem
+      bottom: 0    
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(calc( 100% - 3.85rem ))
+      background-color: #F2E6F8
+    
+    @media (min-width:1200px) and (max-width:1400px)  
+      .crd_hover_txt--body
+        p
+          font-size: 0.85em
