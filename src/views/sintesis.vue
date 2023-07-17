@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p Para lograr una buena arquitectura, en el desarrollo del ejercicio de arquitectura, el equipo de arquitectura se debe apoyar en mejores prácticas, estándares, modelo de madurez, marcos de referencia y herramientas tecnológicas.  Para el desarrollo del proceso de arquitectura la organización ejecutara las fases que dependen del marco de arquitectura adoptado, en términos generales, en cada ejercicio, se realizará una planeación de la arquitectura, se construirá la arquitectura actual, se definirá la arquitectura objetivo, se identificaran las brechas, y se elaborará el mapa de ruta de la transformación. Finalmente se puede llevar a cabo la evaluación del ejercicio de arquitectura.
+    p.mb-5 A continuación, se presenta una síntesis de las temáticas vistas en el componente formativo, a través del siguiente mapa conceptual:
 
     .row.justify-content-center
       .col-lg-10.mb-5
