@@ -245,7 +245,7 @@ export default {
     {
       referencia:
         'The Open Group. (2017). <em>ArchiMate® 3.1 Specification.</em> ',
-      link: 'www.opengroup.org/library/c174',
+      link: 'https://publications.opengroup.org/c174',
     },
     {
       referencia: 'The Open Group. (2018). <em>Togaf Versión 9.2.</em> TOGAF: ',

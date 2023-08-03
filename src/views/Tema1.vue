@@ -35,28 +35,28 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Modelado de arquitectura
-            p ArchiMate Enterprise Architecture. Es un lenguaje visual con un conjunto de iconografía predeterminada para describir, analizar y comunicar muchas preocupaciones de las arquitecturas empresariales a medida que cambian con el tiempo. El estándar proporciona un conjunto de entidades y relaciones con su correspondiente iconografía para la representación de Descripciones de Arquitectura. El ecosistema ArchiMate también admite un formato de intercambio en XML que permite el intercambio de modelos y diagramas entre herramientas. (The Open Group, 2017).
+            p #[i ArchiMate Enterprise Architecture]. Es un lenguaje visual con un conjunto de iconografía predeterminada para describir, analizar y comunicar muchas preocupaciones de las arquitecturas empresariales a medida que cambian con el tiempo. El estándar proporciona un conjunto de entidades y relaciones con su correspondiente iconografía para la representación de Descripciones de Arquitectura. El ecosistema #[i ArchiMate] también admite un formato de intercambio en XML que permite el intercambio de modelos y diagramas entre herramientas. (#[i The Open Group], 2017).
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/tema1-03.png', alt='')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Modela de Planes de Negocio
-            p Business Motivation Model (BMM) proporciona un esquema o estructura para desarrollar, comunicar y administrar planes de negocios de manera organizada. (OMG, 2015).
+            p #[i Business Motivation Model] (BMM) proporciona un esquema o estructura para desarrollar, comunicar y administrar planes de negocios de manera organizada. (OMG, 2015).
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/tema1-04.png', alt='')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Modelado de procesos de negocio
-            p Business Process Model and Notation (BPMN) está destinado a ser utilizado directamente por las partes interesadas que diseñan, administran y realizan procesos comerciales, pero al mismo tiempo debe ser lo suficientemente preciso como para permitir que los diagramas BPMN se traduzcan en componentes de procesos de #[i software]. BPMN tiene una notación similar a un diagrama de flujo fácil de usar que es independiente de cualquier entorno de implementación en particular. (OMG, 2013).
+            p #[i Business Process Model and Notation] (BPMN) está destinado a ser utilizado directamente por las partes interesadas que diseñan, administran y realizan procesos comerciales, pero al mismo tiempo debe ser lo suficientemente preciso como para permitir que los diagramas BPMN se traduzcan en componentes de procesos de #[i software]. BPMN tiene una notación similar a un diagrama de flujo fácil de usar que es independiente de cualquier entorno de implementación en particular. (OMG, 2013).
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/tema1-05.png', alt='')
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Modelado de desarrollo
-            p Unified Modeling Language (UML) es una especificación que define un lenguaje gráfico para visualizar, especificar, construir y documentar los artefactos de los sistemas de objetos distribuidos. (OMG, 2017) UML cuenta con varios tipos de diagramas. UML no es un lenguaje de programación, es lenguaje de modelado, es decir se usa para describir aspectos del sistema como procesos, funciones del sistema, y aspectos concretos como esquemas de bases de datos y componentes reutilizables.
+            p #[i Unified Modeling Language] (UML) es una especificación que define un lenguaje gráfico para visualizar, especificar, construir y documentar los artefactos de los sistemas de objetos distribuidos. (OMG, 2017) UML cuenta con varios tipos de diagramas. UML no es un lenguaje de programación, es lenguaje de modelado, es decir se usa para describir aspectos del sistema como procesos, funciones del sistema, y aspectos concretos como esquemas de bases de datos y componentes reutilizables.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/tema1-06.png', alt='')
@@ -87,26 +87,26 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tema1-07.svg' alt='AvatarTop')
-        h5 ArchiMate
+        h5 #[i ArchiMate]
         p Es un lenguaje estandarizado de modelado abierto e independiente de para describir, analizar y visualizar la arquitectura empresarial a través de diferentes dominios.
       .tarjeta.color-adicional-1.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tema1-08.svg' alt='AvatarTop')
-        h5 Unified Modeling Language
+        h5 #[i Unified Modeling Language]
         p UML es un lenguaje de modelado estandarizado desarrollado para ayudar a los desarrolladores de sistemas y #[i software] a especificar, visualizar, construir y documentar los artefactos de los sistemas y de #[i software], así como para el modelado de negocios y otros sistemas que no son de #[i software].
       .tarjeta.color-adicional-1.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tema1-09.svg' alt='AvatarTop')
-        h5 Business Process Model and Notation
+        h5 #[i Business Process Model and Notation]
         p La notación BPMN es una representación gráfica estandarizada para especificar procesos de negocio.
       .tarjeta.color-adicional-1.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema1/tema1-10.svg' alt='AvatarTop')
-        h5 Business Motivation Model
-        p El Modelo de Motivación (Empresarial Business Motivation Model - BMM) proporciona un esquema o estructura para desarrollar, comunicar y administrar planes organizaciones de manera estandarizada.
+        h5 #[i Business Motivation Model]
+        p El Modelo de Motivación (#[i Empresarial Business Motivation Model] - BMM) proporciona un esquema o estructura para desarrollar, comunicar y administrar planes organizaciones de manera estandarizada.
       .tarjeta.color-adicional-1.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -142,7 +142,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-adicional-2")
           .row(titulo="SOA")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Service Oriented Architecture es una colección de material para el uso de los arquitectos empresariales que trabajan con arquitectura orientada a servicios. SOA de Open Group ahora es reemplazada por ISO /IEC 16384:2016. (The Open Group, 2021)
+              p.mb-0 #[i Service Oriented Architecture] es una colección de material para el uso de los arquitectos empresariales que trabajan con arquitectura orientada a servicios. SOA de #[i Open Group] ahora es reemplazada por ISO /IEC 16384:2016. (#[i The Open Group], 2021).
               p SOA es una forma de pensar en términos de servicios empresariales.
             .col-12
               figure
@@ -151,7 +151,7 @@
               figcaption Nota. Es una imagen técnica por lo cual debe construirse de forma similar a la propuesta o adjuntarla. 
           .row(titulo="DMBOK")
             .col-12.mb-4.mb-md-0
-              p Data Management Body Of Knowledge del DAMA Internacional, se adopta para que la gestión de datos garantice la generación de valor en las organizaciones. Propone 11 áreas que se pueden visualizar en el gráfico. SOA es una forma de pensar en términos de servicios empresariales.
+              p #[i Data Management Body Of Knowledge del DAMA Internacional], se adopta para que la gestión de datos garantice la generación de valor en las organizaciones. Propone 11 áreas que se pueden visualizar en el gráfico. SOA es una forma de pensar en términos de servicios empresariales.
             .col-12
               figure
                 img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/tema1-16-md.svg', alt='')
@@ -254,21 +254,21 @@
           img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='')
       .col-md-8.col-12
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="EABOK") El Conjunto de conocimiento de Arquitectura Empresarial (Enterprise Architecture Body of Knowledge - EABOK) es un compendio de mejores prácticas de Arquitectura Empresarial producida por el Centro de Informática e Informática Innovadoras de MITRE en Estados Unidos. 
+          p.text-small(numero="1" titulo="EABOK") El Conjunto de conocimiento de Arquitectura Empresarial (#[i Enterprise Architecture Body of Knowledge] - EABOK) es un compendio de mejores prácticas de Arquitectura Empresarial producida por el Centro de Informática e Informática Innovadoras de MITRE en Estados Unidos. 
         
-          p.text-small(numero="2" titulo="SOA") El libro de SOA del Open Group (Open Group SOA Source Book) es una colección de material para ser utilizado por Arquitectos Empresariales que trabajan con arquitecturas orientadas a Servicios. 
+          p.text-small(numero="2" titulo="SOA") El libro de SOA del #[i Open Group (Open Group SOA Source Book)] es una colección de material para ser utilizado por Arquitectos Empresariales que trabajan con arquitecturas orientadas a Servicios. 
 
-          p.text-small(numero="3" titulo="DMBoK") El conjunto de conocimiento para la gestión de datos (Data Management Body Of Knowledge) de la asociación de profesionales en gerencia de Datos (Data Management Association - DAMA) contiene un área de conocimiento dedicada a la arquitectura de datos (www.dama.org, 2022).
+          p.text-small(numero="3" titulo="DMBoK") El conjunto de conocimiento para la gestión de datos (#[i Data Management Body Of Knowledge]) de la asociación de profesionales en gerencia de Datos (#[i Data Management Association] - DAMA) contiene un área de conocimiento dedicada a la arquitectura de datos (www.dama.org, 2022).
           
-          p.text-small(numero="4" titulo="TOGAF") El marco de trabajo de arquitectura empresarial del open group (The Open Group Architecture Framework - TOGAF) es uno de los marcos de trabajo más populares de arquitectura empresarial. Define un método para desarrollar una arquitectura empresarial (ADM) acompañado de guías y técnicas, también contiene recomendaciones para establecer la capacidad de arquitectura empresarial (The Open Group, 2018).
+          p.text-small(numero="4" titulo="TOGAF") El marco de trabajo de arquitectura empresarial del open group (#[i The Open Group Architecture Framework] - TOGAF) es uno de los marcos de trabajo más populares de arquitectura empresarial. Define un método para desarrollar una arquitectura empresarial (ADM) acompañado de guías y técnicas, también contiene recomendaciones para establecer la capacidad de arquitectura empresarial (#[i The Open Group], 2018).
           
-          p.text-small(numero="5" titulo="Zachman International") El marco de trabajo de Zachman es una ontología empresarial y es una estructura fundamental para la arquitectura empresarial que proporciona una forma formal y estructurada de ver y definir una empresa. 
+          p.text-small(numero="5" titulo="<i>Zachman International</i>") El marco de trabajo de #[i Zachman] es una ontología empresarial y es una estructura fundamental para la arquitectura empresarial que proporciona una forma formal y estructurada de ver y definir una empresa. 
           
-          p.text-small(numero="6" titulo="DODAF") El marco de trabajo de arquitectura empresarial del Departamento de Defensa de Estados Unidos (Department of Defense Architecture Framework - DoDAF). 
+          p.text-small(numero="6" titulo="DODAF") El marco de trabajo de arquitectura empresarial del Departamento de Defensa de Estados Unidos (#[i Department of Defense Architecture Framework] - DoDAF). 
           
-          p.text-small(numero="7" titulo="FEA") El marco de trabajo de arquitectura empresarial federal de Estados Unidos (Federal Enterprise Architecture Framework - FEAF). 
+          p.text-small(numero="7" titulo="FEA") El marco de trabajo de arquitectura empresarial federal de Estados Unidos (#[i Federal Enterprise Architecture Framework] - FEAF). 
           
-          p.text-small(numero="8" titulo="SABSA") El marco de trabajo (Sherwood Applied Business Security Architecture - SABSA®) y una metodología para desarrollar arquitecturas empresariales de seguridad direccionadas por los riesgos para entregar soluciones seguras de infraestructura para soportar las iniciativas de negocio. 
+          p.text-small(numero="8" titulo="SABSA") El marco de trabajo (#[i Sherwood Applied Business Security Architecture] - SABSA®) y una metodología para desarrollar arquitecturas empresariales de seguridad direccionadas por los riesgos para entregar soluciones seguras de infraestructura para soportar las iniciativas de negocio. 
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -281,11 +281,11 @@
       .col-12.col-md-7.col-lg-6(style="height:100%")
         SlyderF.mb-5(columnas="col-12")
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5 Togaf Modeling
-            p "Togaf Modeling" es un sitio colaborativo diseñado para proporcionar una guía y soluciones prácticas de modelado, mediante la selección de diferentes estándares que brindan una solución lista para usar. 
+            h5 #[i Togaf Modeling]
+            p #[i "Togaf Modeling"] es un sitio colaborativo diseñado para proporcionar una guía y soluciones prácticas de modelado, mediante la selección de diferentes estándares que brindan una solución lista para usar. 
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5 Enterprise Architecture Maturity Model
-            p Modelo de madurez de Arquitectura Empresarial (Enterprise Architecture Maturity Model - EAMM) de la asociación nacional de Chief Information Officer CIO de los Estados Unidos (NASCIO).
+            h5 #[i Enterprise Architecture Maturity Model]
+            p Modelo de madurez de Arquitectura Empresarial (#[i Enterprise Architecture Maturity Model] - EAMM) de la asociación nacional de Chief Information Officer CIO de los Estados Unidos (NASCIO).
           .tarjeta.tarjeta--slyder.p-4.m-3
             h5 ITScore
             p La evaluación de madurez ITScore de Gartner para la arquitectura empresarial evalúa la madurez de AE en cinco niveles, en función de ocho dimensiones principales de una práctica de EA.
@@ -293,23 +293,23 @@
             h5 Bizagi
             p Herramienta para el modelamiento de procesos de negocio. 
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5 Archimate
-            p Herramienta de arquitectura empresarial para gestionar la arquitectura empresarial basada en lenguaje Archimate. 
+            h5 #[i Archimate]
+            p Herramienta de arquitectura empresarial para gestionar la arquitectura empresarial basada en lenguaje #[i Archimate]. 
           .tarjeta.tarjeta--slyder.p-4.m-3
             h5 ADOIT
             p Herramienta de arquitectura empresarial gratuita con versión comunitaria. 
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5 ARIS Community
+            h5 #[i ARIS Community]
             p Herramienta de Arquitectura Empresarial basada en lenguaje Aris (Únicamente diagramación). 
-          .tarjeta.tarjeta--slyder.p-4.m-3
-            h5 Togaf Modeling
-            p "Togaf Modeling" es un sitio colaborativo diseñado para proporcionar una guía y soluciones prácticas de modelado, mediante la selección de diferentes estándares que brindan una solución lista para usar. 
+          //- .tarjeta.tarjeta--slyder.p-4.m-3
+          //-   h5 Togaf Modeling
+          //-   p "Togaf Modeling" es un sitio colaborativo diseñado para proporcionar una guía y soluciones prácticas de modelado, mediante la selección de diferentes estándares que brindan una solución lista para usar. 
           .tarjeta.tarjeta--slyder.p-4.m-3
             h5 Eclipse
             p Herramienta para construir metamodelos y diagramas entidad relación. 
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5 Essential Project
-            p Herramienta de Arquitectura Empresarial con versión Open Source. 
+            h5 #[i Essential Project]
+            p Herramienta de Arquitectura Empresarial con versión #[i Open Source]. 
       .col-12.col-md-5.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/tema1-20.svg', alt='')
@@ -407,9 +407,9 @@
             p.mb-0 La capacidad de una organización para ejecutar factores específicos proporciona una medida de madurez y se puede utilizar para recomendar una serie de pasos secuenciales para mejorar en el tiempo. Es una evaluación que les da a los ejecutivos una idea de cómo mejorar capacidades de la organización.
               br
               br
-              | La planificación basada en la capacidad es un paradigma de planificación empresarial muy útil, que enmarca todas las fases del desarrollo de la arquitectura en el contexto de los resultados comerciales, vinculando claramente la visión de TI, las arquitecturas y los planes de implementación y migración con la estrategia corporativa, el negocio y la línea de negocio (The Open Group, 2018).
+              | La planificación basada en la capacidad es un paradigma de planificación empresarial muy útil, que enmarca todas las fases del desarrollo de la arquitectura en el contexto de los resultados comerciales, vinculando claramente la visión de TI, las arquitecturas y los planes de implementación y migración con la estrategia corporativa, el negocio y la línea de negocio (#[i The Open Group], 2018).
 
-    p.mb-5(data-aos="zoom-down-right") En el mismo TOGAF, capítulo 2, (The Open Group, 2018) se menciona que una práctica de AE debe establecer capacidades en las siguientes áreas:
+    p.mb-5(data-aos="zoom-down-right") En el mismo TOGAF, capítulo 2, (#[i The Open Group], 2018) se menciona que una práctica de AE debe establecer capacidades en las siguientes áreas:
     
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
       .col-12.mb-2.mb-md-0
@@ -417,7 +417,7 @@
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/tema1-27-md.svg', alt='')
           img.d-block.d-md-none(src='@/assets/curso/temas/tema1/tema1-27-sm.svg', alt='') 
 
-    p.mb-5(data-aos="zoom-down-right") En la siguiente sección se detallan algunas características del Enterprise Architecture Maturity Model - EAMM, desarrollado por NASCIO, aunque en la industria se encuentran otros modelos como:
+    p.mb-5(data-aos="zoom-down-right") En la siguiente sección se detallan algunas características del #[i Enterprise Architecture Maturity Model] - EAMM, desarrollado por NASCIO, aunque en la industria se encuentran otros modelos como:
 
     .row.mb-5.justify-content-center
       .col-md-11.col-lg-10(data-aos="fade-right")
@@ -426,22 +426,22 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-28.svg', alt='')
           .col-md-8.col-12
-            p.mb-0 #[strong 1.] EAMMF (Enterprise Architecture of Maturity Model Framework).
-            p.mb-0 #[strong 2.] ACMM (Architecture Capability Maturity Model).
-            p.mb-0 #[strong 3.] EAAF (Enterprise Architecture Assessment Framework).
-            p.mb-0 #[strong 4.] E2AMM (Extended Enterprise Architecture Maturity Model).
-            p.mb-0 #[strong 5.] SAMM (Strategic Alignment Maturity Model).
-            p.mb-0 #[strong 6.] MAEAF (Maturity Assessment Enterprise Architecture Framework).
+            p.mb-0 #[strong 1.] EAMMF (#[i Enterprise Architecture of Maturity Model Framework]).
+            p.mb-0 #[strong 2.] ACMM (#[i Architecture Capability Maturity Model]).
+            p.mb-0 #[strong 3.] EAAF (#[i Enterprise Architecture Assessment Framework]).
+            p.mb-0 #[strong 4.] E2AMM (#[i Extended Enterprise Architecture Maturity Model]).
+            p.mb-0 #[strong 5.] SAMM (#[i Strategic Alignment Maturity Model]).
+            p.mb-0 #[strong 6.] MAEAF (#[i Maturity Assessment Enterprise Architecture Framework]).
 
     .row.mb-5.justify-content-center
       .col-md-11.col-lg-10.cajon.color-primario.p-3(data-aos="fade-down-right")
-        p Estos modelos de madurez que fueron analizados por Patricia Suarez en su artículo (Suarez, Villar, Infante, & Jiménez, 2018), mencionan que comparten criterios de evaluación de la AE y coinciden en cinco niveles de evaluación de la madurez, esto es desde un criterio inexistente o no programado hasta un nivel de desempeño optimizado.
+        p Estos modelos de madurez que fueron analizados por Patricia Suarez en su artículo (#[i Suarez, Villar, Infante, & Jiménez], 2018), mencionan que comparten criterios de evaluación de la AE y coinciden en cinco niveles de evaluación de la madurez, esto es desde un criterio inexistente o no programado hasta un nivel de desempeño optimizado.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Modelo de madurez de NASCIO para AE
 
-    p.mb-3(data-aos="zoom-down-right") El Modelo de madurez de AE (Enterprise Architecture Maturity Model - EAMM) fue desarrollado por la Asociación Nacional de Chief Information Officer (CIO) de los Estados en Estados Unidos (NASCIO) para revisar objetivamente el estado de sus programas de AE. 
-    p.mb-5(data-aos="zoom-down-right") El modelo EAMM se basa en el mismo concepto que el Capability Maturity Model (CMM) desarrollado por el Instituto de Ingeniería de #[i Software] (SEI) que describe la evolución de los procesos de desarrollo de #[i software] de las organizaciones a través de seis niveles: no programado (o inexistente), inicial o programado, repetible, definido, gestionado y optimizado (o mejora continua).
+    p.mb-3(data-aos="zoom-down-right") El Modelo de madurez de AE (#[i Enterprise Architecture Maturity Model] - EAMM) fue desarrollado por la Asociación Nacional de #[i Chief Information Officer] (CIO) de los Estados en Estados Unidos (NASCIO) para revisar objetivamente el estado de sus programas de AE. 
+    p.mb-5(data-aos="zoom-down-right") El modelo EAMM se basa en el mismo concepto que el #[i Capability Maturity Model] (CMM) desarrollado por el Instituto de Ingeniería de #[i Software] (SEI) que describe la evolución de los procesos de desarrollo de #[i software] de las organizaciones a través de seis niveles: no programado (o inexistente), inicial o programado, repetible, definido, gestionado y optimizado (o mejora continua).
 
     .row.mb-5.justify-content-center
       .col-md-11.col-lg-10.cajon.color-acento-botones.p-3(data-aos="fade-right")

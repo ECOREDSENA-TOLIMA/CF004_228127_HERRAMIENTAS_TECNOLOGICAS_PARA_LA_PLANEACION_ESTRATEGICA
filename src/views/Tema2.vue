@@ -19,7 +19,7 @@
         .h4.py-4.mb-4(data-aos="zoom-down-right")
           span.titulo-herramientas Planeación de la Arquitectura TOGAF
       .col-12.col-md-11.col-lg-10.mb-2(data-aos="fade-down-right")
-        p TOGAF plantea en el ADM (The Open Group, 2018) proporciona el contexto dentro del cual el equipo de arquitectura puede operar para desarrollar el programa de AE:
+        p TOGAF plantea en el ADM (#[i The Open Group], 2018) proporciona el contexto dentro del cual el equipo de arquitectura puede operar para desarrollar el programa de AE:
 
     .row.mb-5(data-aos="fade-down-left")
       .col-md-4.col-lg.col-12.tarjeta--tabla.p-4
@@ -92,12 +92,12 @@
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/tema2-11-md.svg', alt='')
           img.d-block.d-md-none(src='@/assets/curso/temas/tema2/tema2-11-sm.svg', alt='')
-        figcaption Nota. Adaptado de (The Open Group, 2018)
+        figcaption Nota. Adaptado de (#[i The Open Group], 2018)
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Fase A “Visión de la arquitectura”
 
-    p.mb-5(data-aos="fade-down-left") El ADM de TOGAF (The Open Group, 2018) comienza con una solicitud de trabajo de Arquitectura, posteriormente se define lo que incluye y lo que queda fuera del esfuerzo de la arquitectura y las limitaciones a considerar. 
+    p.mb-5(data-aos="fade-down-left") El ADM de TOGAF (#[i The Open Group], 2018) comienza con una solicitud de trabajo de Arquitectura, posteriormente se define lo que incluye y lo que queda fuera del esfuerzo de la arquitectura y las limitaciones a considerar. 
 
     .row.justify-content-center.mb-4
       .col-lg-11.col-md-11.col-12.position-relative.mb-5(data-aos="fade-down-right")
@@ -389,7 +389,7 @@
           .col-8
             img(src='@/assets/curso/temas/tema2/tema2-31.svg' alt='')
         h5 Dominio de gobierno de TI
-        p Vistas y artefactos de la vista objetivo del dominio de estrategia de TI, relacionadas con la necesidad que se busca de solucionar con el ejercicio de AE planteado.
+        p Vistas y artefactos de la vista objetivo del dominio de gobierno de TI, relacionadas con la necesidad que se busca solucionar con el ejercicio de AE planteado.
       .tarjeta.color-adicional-1.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -652,7 +652,7 @@ export default {
         titulo:
           'Métodos de Gestión de proyectos (portafolios, programas y proyectos)',
         texto:
-          'Determinan cómo la empresa gestiona sus iniciativas de cambio. Es el marco que permite planificar y construir lo que se requiere, conociendo todo el contexto organizacional, cada pieza que entregan encajaría en el rompecabezas corporativo que es la Arquitectura Empresarial. A menudo, este marco se basa en las metodologías de gestión del “Project Management Institute”.',
+          'Determinan cómo la empresa gestiona sus iniciativas de cambio. Es el marco que permite planificar y construir lo que se requiere, conociendo todo el contexto organizacional, cada pieza que entregan encajaría en el rompecabezas corporativo que es la Arquitectura Empresarial. A menudo, este marco se basa en las metodologías de gestión del “<i>Project Management Institute</i>”.',
         imagen: require('@/assets/curso/temas/tema2/tema2-08.png'),
       },
       {

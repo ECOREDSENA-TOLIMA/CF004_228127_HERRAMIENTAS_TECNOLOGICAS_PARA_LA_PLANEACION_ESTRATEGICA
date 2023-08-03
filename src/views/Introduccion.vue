@@ -13,7 +13,7 @@
     
     figure(data-aos="zoom-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/_SRepnGrOUw" title="Preparación y registro de información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/iVtZk90gApg" title="Ejercicio de arquitectura empresarial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
