@@ -285,12 +285,12 @@
             p #[i "Togaf Modeling"] es un sitio colaborativo diseñado para proporcionar una guía y soluciones prácticas de modelado, mediante la selección de diferentes estándares que brindan una solución lista para usar. 
           .tarjeta.tarjeta--slyder.p-4.m-3
             h5 #[i Enterprise Architecture Maturity Model]
-            p Modelo de madurez de Arquitectura Empresarial (#[i Enterprise Architecture Maturity Model] - EAMM) de la asociación nacional de Chief Information Officer CIO de los Estados Unidos (NASCIO).
+            p Modelo de madurez de Arquitectura Empresarial (#[i Enterprise Architecture Maturity Model] - EAMM) de la asociación nacional de #[i Chief Information Officer] CIO de los Estados Unidos (NASCIO).
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5 ITScore
-            p La evaluación de madurez ITScore de Gartner para la arquitectura empresarial evalúa la madurez de AE en cinco niveles, en función de ocho dimensiones principales de una práctica de EA.
+            h5 #[i ITScore]
+            p La evaluación de madurez #[i ITScore] de #[i Gartner] para la arquitectura empresarial evalúa la madurez de AE en cinco niveles, en función de ocho dimensiones principales de una práctica de EA.
           .tarjeta.tarjeta--slyder.p-4.m-3
-            h5 Bizagi
+            h5 #[em Bizagi]
             p Herramienta para el modelamiento de procesos de negocio. 
           .tarjeta.tarjeta--slyder.p-4.m-3
             h5 #[i Archimate]
@@ -316,7 +316,8 @@
 
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Herramientas de #[i software] para la AE
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Herramientas de #[i software] para la AE
+      div.titulo-herramientas.d-block.d-md-none Herramientas de #[i software] para la AE
 
     p.mb-4(data-aos="fade-down") Como se menciona previamente, en esta categoría se encuentra:
 
@@ -333,7 +334,7 @@
             i.fas.fa-circle.fa-cfx(style="color:#60CB28")
             | Soluciones de AE.
 
-    p.mb-5(data-aos="fade-down") Por otra parte, Excel, Visio y SharePoint, son herramientas básicas que por mucho tiempo han sido útiles para aproximarse a las visiones arquitectónicas, pero la gestión actual de AE requiere la democratización y flexibilidad, es decir que no solamente el personal de TI, también personas de negocio en toda la organización colaboren en el mapeo de datos, visualización de procesos, a través de portales accesibles para todos o alojadas en la nube. 
+    p.mb-5(data-aos="fade-down") Por otra parte, #[em Excel], #[em Visio] y #[em SharePoint], son herramientas básicas que por mucho tiempo han sido útiles para aproximarse a las visiones arquitectónicas, pero la gestión actual de AE requiere la democratización y flexibilidad, es decir que no solamente el personal de TI, también personas de negocio en toda la organización colaboren en el mapeo de datos, visualización de procesos, a través de portales accesibles para todos o alojadas en la nube. 
 
     .row.mb-5.justify-content-center
       .col-md-11.col-lg-10.cajon.color-acento-botones.p-3(data-aos="fade-right")
@@ -392,7 +393,8 @@
               p Visibilidad de la arquitectura de TI actual y capacidad para planificar el estado futuro deseado.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Modelo de madurez para AE
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Modelo de madurez para AE
+      div.titulo-herramientas.d-block.d-md-none Modelo de madurez para AE
 
     p.mb-3(data-aos="zoom-down-right") Tener una buena AE no sucede espontáneamente, se requieren meses para ponerla en marcha, quizás iniciando por adoptar buenas prácticas e implementar la arquitectura con un proyecto de alto impacto para la organización, para posteriormente desarrollar la AE en otros proyectos y refinar el proceso. Un punto de partida es la comprensión del nivel de madurez de la capacidad, establecer objetivos alcanzables y eliminar progresivamente cualquier barrera para el éxito.
     p.mb-5(data-aos="zoom-down-right") La evaluación de la madurez es uno de los aspectos que se enmarcan en la “Fase preliminar” del Método de Desarrollo de la Arquitectura (ADM) de TOGAF. Dentro de los objetivos de la fase está establecer el objetivo de madurez de la capacidad y, por tanto, el equipo de arquitectura debe adoptar un buen modelo de madurez alineado con las necesidades de la organización, que proporcione medidas de éxito, y permita la mejora continua de la organización.
@@ -438,7 +440,8 @@
         p Estos modelos de madurez que fueron analizados por Patricia Suarez en su artículo (#[i Suarez, Villar, Infante, & Jiménez], 2018), mencionan que comparten criterios de evaluación de la AE y coinciden en cinco niveles de evaluación de la madurez, esto es desde un criterio inexistente o no programado hasta un nivel de desempeño optimizado.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Modelo de madurez de NASCIO para AE
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Modelo de madurez de NASCIO para AE
+      div.titulo-herramientas.d-block.d-md-none Modelo de madurez de NASCIO para AE
 
     p.mb-3(data-aos="zoom-down-right") El Modelo de madurez de AE (#[i Enterprise Architecture Maturity Model] - EAMM) fue desarrollado por la Asociación Nacional de #[i Chief Information Officer] (CIO) de los Estados en Estados Unidos (NASCIO) para revisar objetivamente el estado de sus programas de AE. 
     p.mb-5(data-aos="zoom-down-right") El modelo EAMM se basa en el mismo concepto que el #[i Capability Maturity Model] (CMM) desarrollado por el Instituto de Ingeniería de #[i Software] (SEI) que describe la evolución de los procesos de desarrollo de #[i software] de las organizaciones a través de seis niveles: no programado (o inexistente), inicial o programado, repetible, definido, gestionado y optimizado (o mejora continua).
@@ -476,7 +479,7 @@
  
     .row.justify-content-center.mb-4.d-block.d-md-none(data-aos="fade-down-right")
       .col-12.mb-2.mb-md-0
-        a.anexo.mb-4(:href="obtenerLink('/downloads/niveles_de_madurez_eamm.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_1_niveles_de_madurez_eamm.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

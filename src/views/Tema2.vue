@@ -17,7 +17,8 @@
     .row.justify-content-center.mb-4
       .col-12.col-md-11.col-lg-10.mb-2
         .h4.py-4.mb-4(data-aos="zoom-down-right")
-          span.titulo-herramientas Planeación de la Arquitectura TOGAF
+          span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Planeación de la Arquitectura TOGAF
+          span.titulo-herramientas.d-block.d-md-none Planeación de la Arquitectura TOGAF
       .col-12.col-md-11.col-lg-10.mb-2(data-aos="fade-down-right")
         p TOGAF plantea en el ADM (#[i The Open Group], 2018) proporciona el contexto dentro del cual el equipo de arquitectura puede operar para desarrollar el programa de AE:
 
@@ -95,7 +96,8 @@
         figcaption Nota. Adaptado de (#[i The Open Group], 2018)
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Fase A “Visión de la arquitectura”
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Fase A “Visión de la arquitectura”
+      span.titulo-herramientas.d-block.d-md-none Fase A “Visión de la arquitectura”
 
     p.mb-5(data-aos="fade-down-left") El ADM de TOGAF (#[i The Open Group], 2018) comienza con una solicitud de trabajo de Arquitectura, posteriormente se define lo que incluye y lo que queda fuera del esfuerzo de la arquitectura y las limitaciones a considerar. 
 
@@ -112,7 +114,8 @@
         p Una parte integral de la visión de la arquitectura es la comprensión de las tecnologías emergentes, su impacto potencial en los sectores económicos y en particular las oportunidades comerciales que puedan apalancar para la organización.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
-      span.titulo-herramientas Planeación de la Arquitectura Modelo de AE del Gobierno colombiano MAE
+      span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex Planeación de la Arquitectura Modelo de AE del Gobierno colombiano MAE
+      span.titulo-herramientas.d-block.d-md-none Planeación de la Arquitectura Modelo de AE del Gobierno colombiano MAE
 
     .row.mb-5.justify-content-center.tarjeta.color-acento-botones.p-3
       .col-12(data-aos="fade-right")
