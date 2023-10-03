@@ -254,13 +254,13 @@
           img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='')
       .col-md-8.col-12
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="EABOK") El Conjunto de conocimiento de Arquitectura Empresarial (#[i Enterprise Architecture Body of Knowledge] - EABOK) es un compendio de mejores prácticas de Arquitectura Empresarial producida por el Centro de Informática e Informática Innovadoras de MITRE en Estados Unidos. 
+          p.text-small(numero="1" titulo="EABOK") El Conjunto de conocimiento de Arquitectura Empresarial (#[em Enterprise Architecture Body of Knowledge] - EABOK) es un compendio de mejores prácticas de Arquitectura Empresarial producida por el Centro de Informática e Informática Innovadoras de MITRE en Estados Unidos. 
         
           p.text-small(numero="2" titulo="SOA") El libro de SOA del #[i Open Group (Open Group SOA Source Book)] es una colección de material para ser utilizado por Arquitectos Empresariales que trabajan con arquitecturas orientadas a Servicios. 
 
-          p.text-small(numero="3" titulo="DMBoK") El conjunto de conocimiento para la gestión de datos (#[i Data Management Body Of Knowledge]) de la asociación de profesionales en gerencia de Datos (#[i Data Management Association] - DAMA) contiene un área de conocimiento dedicada a la arquitectura de datos (www.dama.org, 2022).
+          p.text-small(numero="3" titulo="DMBoK") El conjunto de conocimiento para la gestión de datos (#[em Data Management Body Of Knowledge]) de la asociación de profesionales en gerencia de Datos (#[i Data Management Association] - DAMA) contiene un área de conocimiento dedicada a la arquitectura de datos (www.dama.org, 2022).
           
-          p.text-small(numero="4" titulo="TOGAF") El marco de trabajo de arquitectura empresarial del open group (#[i The Open Group Architecture Framework] - TOGAF) es uno de los marcos de trabajo más populares de arquitectura empresarial. Define un método para desarrollar una arquitectura empresarial (ADM) acompañado de guías y técnicas, también contiene recomendaciones para establecer la capacidad de arquitectura empresarial (#[i The Open Group], 2018).
+          p.text-small(numero="4" titulo="TOGAF") El marco de trabajo de arquitectura empresarial del #[em open group] (#[em The Open Group Architecture Framework] - TOGAF) es uno de los marcos de trabajo más populares de arquitectura empresarial. Define un método para desarrollar una arquitectura empresarial (ADM) acompañado de guías y técnicas, también contiene recomendaciones para establecer la capacidad de arquitectura empresarial (#[i The Open Group], 2018).
           
           p.text-small(numero="5" titulo="<i>Zachman International</i>") El marco de trabajo de #[i Zachman] es una ontología empresarial y es una estructura fundamental para la arquitectura empresarial que proporciona una forma formal y estructurada de ver y definir una empresa. 
           

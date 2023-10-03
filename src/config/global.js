@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema1',
         numero: '1',
         titulo:
-          'Herramientas tecnológicas para gestionar y documentar ejercicios de Arquitectura Empresarial',
+          'Herramientas tecnológicas para gestionar y documentar ejercicio de Arquitectura Empresarial',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -118,7 +118,7 @@ export default {
   complementario: [
     {
       tema:
-        'Herramientas tecnológicas para gestionar y documentar ejercicios de Arquitectura Empresarial',
+        'Herramientas tecnológicas para gestionar y documentar ejercicio de Arquitectura Empresarial',
       referencia:
         'CertCampus. (2019). ADM El método de desarrollo de la Arquitectura. [Vídeo], YouTube ',
       tipo: 'Video',
@@ -171,7 +171,7 @@ export default {
     {
       termino: 'SOA - <em>Service Oriented Architecture</em>',
       significado:
-        'El estilo de arquitectura SAO se caracteriza por hacer que los componentes de software sean reutilizables a través de interfaces de servicio. SOA emergió a finales de la década de 1990, y representa una etapa importante en la evolución del desarrollo de aplicaciones y la integración. Los servicios se exponen utilizando protocolos de red estándar, como SOAP (protocolo simple de acceso a objetos) /HTTP o JSON/HTTP, para enviar solicitudes para leer o cambiar datos. Los servicios se publican de tal forma que rápidamente los desarrolladores pueden encontrarlos rápidamente y reutilizarlos para ensamblar nuevas aplicaciones.',
+        'El estilo de arquitectura SAO se caracteriza por hacer que los componentes de <em>software</em> sean reutilizables a través de interfaces de servicio. SOA emergió a finales de la década de 1990, y representa una etapa importante en la evolución del desarrollo de aplicaciones y la integración. Los servicios se exponen utilizando protocolos de red estándar, como SOAP (protocolo simple de acceso a objetos) /HTTP o JSON/HTTP, para enviar solicitudes para leer o cambiar datos. Los servicios se publican de tal forma que rápidamente los desarrolladores pueden encontrarlos rápidamente y reutilizarlos para ensamblar nuevas aplicaciones.',
     },
     {
       termino: 'Transformación Digital',
@@ -196,21 +196,21 @@ export default {
         'https://www.leanix.net/en/wiki/ea/enterprise-architecture-tool-selection-guide',
     },
     {
-      referencia: 'MINTIC. (2019). <em>Arquitectura TI Colombia.</em> ',
+      referencia: 'MINTIC. (2023). <em>Arquitectura TI Colombia.</em> ',
       link:
-        'https://www.mintic.gov.co/arquitecturati/630/w3-propertyvalue-8118.html',
+        'https://www.mintic.gov.co/portal/inicio/Atencion-y-Servicio-a-la-Ciudadania/Preguntas-frecuentes/54891:Arquitectura-TI-Colombia',
     },
     {
       referencia:
-        'MINTIC. (31 de octubre de 2019). <em>Documento Maestro del Modelo de Arquitectura Empresarial.</em> ',
+        'MINTIC. (2023). <em>MARCO DE REFERENCIA DE ARQUITECTURA EMPRESARIAL.</em> ',
       link:
-        'https://www.mintic.gov.co/arquitecturati/630/articles-144764_recurso_pdf.pdf',
+        'https://www.mintic.gov.co/arquitecturaempresarial/630/articles-204807_recurso_2.pdf',
     },
     {
       referencia:
-        'MINTIC. (2019). <em>Guía General de un proceso de Arquitectura Empresarial V2.2.</em> ',
+        'MINTIC. (2023). <em>Guía General MAE.G.PA - PROCESO DE ARQUITECTURA EMPRESARIAL</em> ',
       link:
-        'https://www.mintic.gov.co/arquitecturati/630/articles-9435_Guia_Proceso.pdf',
+        'https://www.mintic.gov.co/arquitecturaempresarial/630/articles-237652_recurso_1.pdf',
     },
     {
       referencia:

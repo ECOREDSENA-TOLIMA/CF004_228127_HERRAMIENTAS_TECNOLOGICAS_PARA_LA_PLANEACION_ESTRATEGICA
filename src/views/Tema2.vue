@@ -386,7 +386,7 @@
           .col-8
             img(src='@/assets/curso/temas/tema2/tema2-30.svg' alt='')
         h5 Dominio de estrategia de TI 
-        p Vistas y artefactos de la vista objetivo del dominio de estrategia de TI, relacionadas con la necesidad que se busca de solucionar con el ejercicio de AE planteado.
+        p Vistas y artefactos de la vista objetivo del dominio de estrategia de TI, relacionadas con la necesidad que se busca solucionar con el ejercicio de AE planteado.
       .tarjeta.color-adicional-1.p-4
         .row.justify-content-center.mb-3
           .col-8
