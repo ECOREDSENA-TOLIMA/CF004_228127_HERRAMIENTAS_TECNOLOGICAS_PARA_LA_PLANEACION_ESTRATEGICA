@@ -182,11 +182,21 @@ export default {
   referencias: [
     {
       referencia:
-        'CertCampus. (10 de septiembre de 2019). <em>ADM El método de desarrollo de la Arquitectura.</em> [Vídeo] YouTube: ',
+        'CertCampus. (2019). <em>Curso TOGAF® 9.2 Certified: 1.1 ADM, Método de Desarrollo de la Arquitectura.</em> [Vídeo] YouTube:',
       link: 'https://www.youtube.com/watch?v=5sXE4izHgWc',
     },
     {
-      referencia: 'IBM. (2021). <em>IBM Cloud Education.</em> ',
+      referencia:
+        'DAMA International. (2022) <em>DAMA - DMBOK. Data Management Body of Knowledge.</em>',
+      link: '',
+    },
+    {
+      referencia:
+        'EABOK. (s.f.). About the Enterprise Architecture Body of Knowledge (EABOK).',
+      link: 'https://eabok.org/about/',
+    },
+    {
+      referencia: 'IBM. (s.f). ¿Qué son los microservicios?',
       link: 'https://www.ibm.com/mx-es/cloud/learn/microservices',
     },
     {
@@ -196,13 +206,13 @@ export default {
         'https://www.leanix.net/en/wiki/ea/enterprise-architecture-tool-selection-guide',
     },
     {
-      referencia: 'MINTIC. (2023). <em>Arquitectura TI Colombia.</em> ',
+      referencia: 'MINTIC. (s.f). <em>Arquitectura TI Colombia.</em> ',
       link:
         'https://www.mintic.gov.co/portal/inicio/Atencion-y-Servicio-a-la-Ciudadania/Preguntas-frecuentes/54891:Arquitectura-TI-Colombia',
     },
     {
       referencia:
-        'MINTIC. (2023). <em>MARCO DE REFERENCIA DE ARQUITECTURA EMPRESARIAL.</em> ',
+        'MINTIC. (2023). <em>Documento Maestro. Marco de Referencia de Arquitectura Empresarial.</em> ',
       link:
         'https://www.mintic.gov.co/arquitecturaempresarial/630/articles-204807_recurso_2.pdf',
     },
@@ -214,27 +224,19 @@ export default {
     },
     {
       referencia:
-        'MITRE Corporation. (2022). <em>MITRE Partnership Network.</em> EABOK: ',
-      link: 'https://eabok.org/about/',
-    },
-    {
-      referencia:
-        'NASCIO. (diciembre de 2013). <em>Enterprise Architecture Maturity Model Version 1.3.</em> ',
+        'NASCIO. (2013). <em>Enterprise Architecture Maturity Model Version 1.3.</em> ',
       link: 'https://www.nascio.org/wp-content/uploads/2019/11/NASCIO-EAMM.pdf',
     },
     {
-      referencia:
-        'OMG. (diciembre de 2013). <em>Standards Development Organization.</em> Business Process Model and Notation BPMN:',
+      referencia: 'OMG. (2013). Business Process Model and Notation BPMN:',
       link: 'https://www.omg.org/spec/BPMN/2.0.2/PDF',
     },
     {
-      referencia:
-        'OMG. (mayo de 2015). <em>Standards Development Organization.</em> Business Motivation Model BMM: ',
+      referencia: 'OMG. (2015). Business Motivation Model BMM: ',
       link: 'https://www.omg.org/spec/BMM/1.3/PDF',
     },
     {
-      referencia:
-        'OMG. (diciembre de 2017). <em>Standards Development Organization.</em> Unified Modeling Language UML: ',
+      referencia: 'OMG. (2017). Unified Modeling Language UML: ',
       link: 'https://www.omg.org/spec/UML/2.5.1/PDF',
     },
     {
@@ -244,22 +246,19 @@ export default {
     },
     {
       referencia:
-        'The Open Group. (2017). <em>ArchiMate® 3.1 Specification.</em> ',
+        'The Open Group. (2017). <em>ArchiMate® Model Exchange File Format for the ArchiMate Modeling Language, Version 3.0.</em>',
       link: 'https://publications.opengroup.org/c174',
     },
     {
-      referencia: 'The Open Group. (2018). <em>Togaf Versión 9.2.</em> TOGAF: ',
+      referencia:
+        'The Open Group. (2018). <em>Welcome to the TOGAF Standard, Version 9.2, a standard of The Open Group.</em>',
       link: 'https://pubs.opengroup.org/architecture/togaf9-doc/arch/',
     },
     {
-      referencia: 'The Open Group. (2021). <em>The SOA Source Book.</em> ',
+      referencia:
+        'The Open Group. (s.f). <em>Service-Oriented Architecture - What Is SOA?</em> ',
       link:
         'http://www.opengroup.org/soa/source-book/soa/p1.htm#soa_definition',
-    },
-    {
-      referencia:
-        'www.dama.org. (2022). <em>DAMA.</em> The Global Data Management Community: ',
-      link: 'https://www.dama.org/cpages/body-of-knowledge',
     },
   ],
   creditos: [
